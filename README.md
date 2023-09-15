@@ -115,3 +115,28 @@ sudo apt-get install ./docker-desktop-<version>-<arch>.deb
 ```
 2048 Procedure
 ============
+
+1. Clone the given repository
+```bash
+git clone https://github.com/Sre-n/docker_2048
+```
+
+2. Connect to docker daemon
+```bash
+sudo systemctl daemon-reload
+```
+
+3. Start building
+```bash
+docker build -t 2048-game .
+```
+
+4. Check if an image is created or not
+```bash
+docker images
+```
+
+5. Run in port by providng image id generated from previous command
+```bash
+docker run -d -p 80 <image-id>
+```
