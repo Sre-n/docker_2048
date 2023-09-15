@@ -45,6 +45,55 @@ Deplyments before
 ▲ Development (Artifacts)-> Server-> Operation (installation and configurations)
 Problems: miscommunication-human errors
 
+Virtual Machine VS Docker
+-----
+
+Os-kernel+application Kernal-core interacts with hardware and software
+
+- Size: docker high
+
+- Speed: docker high
+
+- Docker Containers
+-----
+
+- Own isolated environment
+
+- Each packaged with all dependencies and configure
+
+- start application
+
+- running instance of image
+  
+- Starts services with just 1 command for all services and OS
+
+- Artifacts include everything app needs: configuration, source code, dependencies
+
+Docker Images
+-----
+
+- executable application artifact
+
+- app source code, environment configuration
+
+- immutable template defines how container is realized
+
+Run multiple containers from 1 image
+
+Docker Registry
+-----
+
+- storage and distribution system for docker images
+
+- official images maintained in collaboration with docker
+
+- docker hub
+
+Docker Repository
+-----
+
+- collection of related images with same name but different versions
+
 Easy to run different versions of same app without any conflicts
 Linux (manual installation)
 ```bash
