@@ -143,3 +143,8 @@ docker images
 ```bash
 docker run -d -p 80 <image-id>
 ```
+REFERENCES
+-----------
+-----------
+
+https://codeload.github.com/gabrielecirulli/2048
