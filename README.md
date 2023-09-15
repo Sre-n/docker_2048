@@ -54,7 +54,7 @@ Os-kernel+application Kernal-core interacts with hardware and software
 
 - Speed: docker high
 
-- Docker Containers
+Docker Containers
 -----
 
 - Own isolated environment
@@ -94,9 +94,24 @@ Docker Repository
 
 - collection of related images with same name but different versions
 
+PREREQUISITE
+============
+
 Easy to run different versions of same app without any conflicts
 Linux (manual installation)
 ```bash
-$ wget https://raw.githubusercontent.com/ekalinin/github-markdown-toc/master/gh-md-toc
-$ chmod a+x gh-md-toc
+sudo apt install gnome-terminal
 ```
+
+```bash
+rm -r $HOME/.docker/desktop
+sudo rm /usr/local/bin/com.docker.cli
+sudo apt purge docker-desktop
+```
+
+```bash
+sudo apt-get update
+sudo apt-get install ./docker-desktop-<version>-<arch>.deb
+```
+2048 Procedure
+============
