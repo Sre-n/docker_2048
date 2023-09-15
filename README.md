@@ -47,7 +47,7 @@ Problems: miscommunication-human errors
 
 Virtual Machine VS Docker
 -----
-
+![image](https://github.com/Sre-n/docker_2048/assets/92539781/a6031894-c86f-4b56-ba1a-de7b6f8ca145)
 Os-kernel+application Kernal-core interacts with hardware and software
 
 - Size: docker high
@@ -93,6 +93,9 @@ Docker Repository
 -----
 
 - collection of related images with same name but different versions
+
+![image](https://github.com/Sre-n/docker_2048/assets/92539781/f2606bab-c682-416f-a509-811a26c83910)
+
 
 PREREQUISITE
 ============
